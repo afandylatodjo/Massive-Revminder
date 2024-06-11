@@ -1,4 +1,23 @@
 {
+  "artikel": [
+    {
+      "id": 1,
+      "judul": "",
+      "nama_author": "",
+      "tanggal_publish": "",
+      "gambar": {
+        "sumber": "",
+        "path": ""
+      },
+      "konten": {
+        "section-one": "<h1 className='text-xl font-bold'>Lorem Ipsum</h1>",
+        "section-two": [
+          "<h2 >Hello World</h2>",
+          "<h2>World Hello</h2>"
+        ]
+      }
+    }
+  ],
   "discussion": [
     {
       "id": 1,
@@ -503,6 +522,33 @@
         }
       ],
       "id": 9
+    },
+    {
+      "user": "Pheonix",
+      "comment": "Minta saran untuk ganti oli, oli yang bagus apa ya?",
+      "topic": "Motor",
+      "created": "23-11-2023 09:00:00",
+      "likes": 0,
+      "replies": [
+        {
+          "0": "No Good"
+        }
+      ],
+      "id": 10
+    },
+    {
+      "user": "Pheonix",
+      "avatar": "/src/assets/UserPhoto.png",
+      "comment": "Motor saya berasap\n",
+      "topic": "Motor",
+      "created": "23-11-2023 09:00:00",
+      "likes": 0,
+      "replies": [
+        {
+          "0": "No Good"
+        }
+      ],
+      "id": 11
     }
   ]
 }
